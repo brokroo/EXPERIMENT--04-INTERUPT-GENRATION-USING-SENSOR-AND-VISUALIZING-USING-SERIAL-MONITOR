@@ -1,8 +1,8 @@
-###  DATE: 23/09/2025
-###  NAME:SANJITH.R
-###  ROLL NO : 212223230191
-###  DEPARTMENT: B.Tech-AIDS
+###  DATE: 23-09-2025
 
+###  NAME: SANJITH R
+###  ROLL NO : 212223230191
+###  DEPARTMENT: BTECH AIDS
 
 # EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR
 
@@ -117,7 +117,7 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
   
 
 ## STM 32 CUBE PROGRAM :
-```c
+```
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
@@ -408,18 +408,28 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 #endif /* USE_FULL_ASSERT */
 
+
 ```
+
+
+
 ## Output screen shots of serial port utility   :
-<img width="961" height="433" alt="image" src="https://github.com/user-attachments/assets/32a2555f-b777-4d84-8330-867d8c8120d0" />
+<img width="1157" height="527" alt="image" src="https://github.com/user-attachments/assets/cf65718e-28dc-46a0-b66c-8a699caf353d" />
 
-
-## Circuit board :
-### Obstacle not detected
-<img width="512" height="308" alt="image" src="https://github.com/user-attachments/assets/3bf20371-0876-46e8-b5dd-614e78401328" />
-
-### Obstacle detected
-<img width="500" height="259" alt="image" src="https://github.com/user-attachments/assets/22684cbb-fa67-4d72-ae5d-1e7664acefde" />
 
  
+ 
+ ## Circuit board :
+ BEFORE OBSTACLE DETECTED:
+ <img width="2416" height="2584" alt="image" src="https://github.com/user-attachments/assets/e2e06247-d53c-4aa8-a44f-307880fc2db0" />
+
+
+AFTER OBSTACLE IS DETECTED:
+<img width="1274" height="1600" alt="image" src="https://github.com/user-attachments/assets/013db43e-a588-43b5-b77f-4478bc993435" />
+
+
+
+
+  
 ## Result :
 Interfacing a  IR SENSOR and interrupt is generated using external interrupt mode , visualized on serial port 
